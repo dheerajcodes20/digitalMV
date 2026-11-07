@@ -1,0 +1,197 @@
+.audit-page-container {
+  padding: 1.5rem 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1e293b;
+}
+
+.audit-head-row {
+  margin-bottom: 1.25rem;
+}
+
+.audit-title {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.audit-sub {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin: 0.25rem 0 0 0;
+}
+
+.audit-policy-banner {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-left: 4px solid #0f172a;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  color: #334155;
+  margin-bottom: 1.5rem;
+}
+
+.lock-icon {
+  color: #0f172a;
+  flex-shrink: 0;
+}
+
+.rbac-card,
+.audit-log-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  margin-bottom: 1.5rem;
+}
+
+.rbac-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.rbac-sub {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin: 0.2rem 0 1rem 0;
+}
+
+.rbac-table,
+.audit-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.rbac-table th,
+.audit-table th {
+  background: #f8fafc;
+  padding: 0.7rem 0.85rem;
+  color: #475569;
+  font-weight: 600;
+  font-size: 0.72rem;
+  border-bottom: 1px solid #e2e8f0;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.rbac-table td,
+.audit-table td {
+  padding: 0.75rem 0.85rem;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: middle;
+}
+
+.current-active-user td {
+  background: #eff6ff;
+}
+
+.u-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.u-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.u-code {
+  font-size: 0.68rem;
+  color: #64748b;
+  display: block;
+}
+
+.role-tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: #f1f5f9;
+  color: #0f172a;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+}
+
+.auth-text {
+  font-size: 0.75rem;
+  color: #166534;
+}
+
+.boundary-text {
+  font-size: 0.72rem;
+  color: #991b1b;
+}
+
+.audit-filter-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.role-filter-select {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  background: #f8fafc;
+  outline: none;
+  cursor: pointer;
+}
+
+.audit-ts {
+  font-size: 0.72rem;
+  color: #64748b;
+}
+
+.actor-cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.actor-role {
+  font-size: 0.68rem;
+  color: #64748b;
+}
+
+.action-pill {
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: #eff6ff;
+  color: #1e40af;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+}
+
+.rec-id {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.details-text {
+  font-size: 0.75rem;
+  color: #334155;
+  line-height: 1.35;
+}
+

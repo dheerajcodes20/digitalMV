@@ -1,0 +1,197 @@
+.specialist-page-container {
+  padding: 1.5rem 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1e293b;
+}
+
+.specialist-header-row {
+  margin-bottom: 1.25rem;
+}
+
+.spec-title {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.spec-sub {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin: 0.25rem 0 0 0;
+}
+
+.specialist-nav-bar {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.spec-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: none;
+  padding: 0.65rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.15s ease;
+}
+
+.spec-tab:hover {
+  color: #0f172a;
+}
+
+.spec-tab.active {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+}
+
+.workflow-detail-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.workflow-detail-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 0.35rem 0;
+}
+
+.wf-desc {
+  font-size: 0.82rem;
+  color: #64748b;
+  margin: 0 0 1.25rem 0;
+}
+
+.wf-records-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wf-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.wf-item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #0f172a;
+  margin-bottom: 0.35rem;
+}
+
+.wf-status-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.wf-status-tag.approved {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.wf-status-tag.pending {
+  background: #ffedd5;
+  color: #c2410c;
+}
+
+.wf-meta {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+.wf-notes {
+  font-size: 0.78rem;
+  color: #334155;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 0.65rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.commissioning-checks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.comm-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.comm-icon {
+  color: #16a34a;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.comm-box strong {
+  font-size: 0.82rem;
+  color: #0f172a;
+  display: block;
+}
+
+.comm-box span {
+  font-size: 0.72rem;
+  color: #64748b;
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.closure-summary-box {
+  display: flex;
+  gap: 1.5rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.cs-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-row span {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.cs-row strong {
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
